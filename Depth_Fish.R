@@ -1,4 +1,4 @@
-rm(list=ls(all=TRUE)) ## neteja les variables
+rm(list=ls(all=TRUE)) ## 
 library(weights)
 library(scam)
 DB <- read.table("File_name", sep="\t", header=T) # Change the route if necessary
